@@ -10,7 +10,7 @@ with st.sidebar:
     st.image(logo1_path)
 
 # Set the title of the app
-st.title("GDM Final Project - Group 1")
+st.title("GDM Final Project - Group 1 ")
 
 # Add a button to download the presentation
 presentation_path = "media/presentation/presentation.pdf"  # Change this to your actual presentation path
