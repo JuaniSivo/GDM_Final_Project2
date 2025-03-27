@@ -10,7 +10,7 @@ image_folder = "media/images"  # Change this to your actual folder
 image_files = [f for f in os.listdir(image_folder) if f.endswith(('png', 'jpg', 'jpeg'))]
 
 for img in image_files:
-    st.image(os.path.join(image_folder, img), caption=img, use_column_width=True)
+    st.image(os.path.join(image_folder, img), caption=img)
 
 # Display videos
 st.header("Videos")
